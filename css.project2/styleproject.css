@@ -1,0 +1,261 @@
+/*reset code and commomd code starts here*/
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+ }
+html{
+    scroll-behavior: smooth;
+    background: #fafafa;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+/*navigation bar starts here*/
+
+/*navigation bar starts here*/
+
+body{
+    background-color: #fff;
+    width: 100rem;
+    max-width: 100%;
+   margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem
+    #c4c4c4, -0.1rem 0rem 0.1rem 
+      #c4c4c4;
+}
+ .text-justify{
+    text-align: justify;
+ }
+ .text-white{
+    color: #fafafa;
+ }
+/*reset code and commom code ends here*/
+/*header starts here*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 2rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+    width: 100%;
+}
+#blog-header{
+    width: 100%;
+}
+
+.logo-fig{
+    border: 1px solid #fff; 
+ 
+    color:#fff;
+ 
+
+}
+.logo{
+    font-size:4rem;
+}
+
+.nav__links{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.nav__link{
+    font-size: 2rem;
+    padding:0.2rem 0.2rem 0.2rem 0.2rem;
+    transition: all 2s;
+}
+.nav__link:hover{
+    background-color: blue;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+/*navigation bar ends here*/
+/*header ends here*/
+/*banner section starts here*/
+.banner{
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+.banner article{
+    flex-basis: 50%;
+    margin: 1rem;
+}
+.banner aside{
+    flex-basis: 50%;
+    text-align: center;
+}
+.banner__description{
+font-size: medium;
+}
+.banner__heading{
+    display: inline-block;
+    font-size: 4rem;
+background-color: black;
+color: #fff;
+padding: 1rem 1rem;
+margin:1.5rem 0rem;
+}
+.banner__img{
+    height: 55rem;
+    width: 55rem;
+    border: 0.30rem solid;
+}
+/*banner section ends here*/
+
+/*about me section starts here*/
+#blog-about{
+    background-color: rgb(104, 103, 100);
+    font-size: 5rem;
+}
+.section__header{
+    display: flex;
+    font-family:'Italianno', cursive;
+padding: 5rem 5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size:6rem;
+   
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 4rem;
+    box-sizing: border-box;
+
+}
+.card{
+    background-color:#a09d9d;
+    padding: 3rem 3rem ;
+    margin: 2rem;
+    border-radius: 5%;
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0.5rem 0.5rem black;
+cursor: pointer;
+}
+.card__header{
+    font-size: 3rem;
+   
+}
+.blog__description{
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+.btn__class{
+    width: 15rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(208, 146, 40);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.5rem 0.5rem  black;
+
+  
+}
+
+/*about me section starts here*/
+
+/*archive section starts here*/
+.Archive__container{
+
+  height: 40rem;
+
+}
+.Archive__container__lists{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+padding: 2rem 2rem 2rem 2rem;
+    gap: 1rem;
+    border-top: 0.1rem solid black;
+border-bottom:0.1rem solid black ;
+}
+
+.Archive__container__list{
+    
+    width: 100%;
+justify-content: left;
+}
+.archives__img{
+height: 15rem;
+width: 15rem;
+border:0.3rem  black solid;
+transition: all 1.5s;
+}
+.archives__img:hover{
+    transform: scale(1.5);
+}
+/*
+.Archive__container__list2{
+    
+    width: 5rem;
+    height: 5rem;
+justify-content: left;
+}
+.Archive__container__list3{
+    
+    width: 5rem;
+    height: 5rem;
+justify-content: left;
+}.Archive__container__list4{
+    
+    width: 5rem;
+    height: 5rem;
+justify-content: left;
+}.Archive__container__list5{
+    
+    width: 5rem;
+    height: 5rem;
+justify-content: left;
+}
+/*archive section ends here*/
+/*responsiveness starts here
+@media and(max-width:992px) {
+    
+}*/
+/*
+@media screen and(min-width:900px) {
+   .banner__description {
+        font-size: 2rem;
+        padding: 0;
+    background-color:green;
+    
+}
+}
+@media screen and(max-width:692px) {
+    .banner__description{
+        font-size: 1.2rem;
+        padding: 0;
+    background-color:pink;    
+}
+}
+/*
+@media and(max-width:992px) {
+    
+}
+
+/*responsiveness starts here*/
